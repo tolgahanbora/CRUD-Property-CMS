@@ -2,8 +2,7 @@ import User from '../mongodb/models/user.js'
 import * as dotenv from 'dotenv'
 import { v2 as cloudinary } from 'cloudinary'
 import mongoose from 'mongoose'
-import Property from '../mongodb/models/Property.js'
-import propertyModel from '../mongodb/models/Property.js'
+import Property from '../mongodb/models/property.js'
 
 
 dotenv.config()
